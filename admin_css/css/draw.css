@@ -1,0 +1,100 @@
+#tournamentbox{
+width: 77%;
+	    border: solid 1px #C1C1C1;
+background: #FAFAFA;
+display: inline-block;
+vertical-align: top;
+margin-right: 15px;
+}
+#signupbox{
+	    border: solid 1px #C1C1C1;
+width: 21%;
+display: inline-block;
+background: #FAFAFA;
+}
+
+.tournament{
+padding: 5px;
+margin-left: 20px;
+text-align:center;
+}
+
+.round{
+         float:left;  
+}
+
+.player{
+    width:125px;   
+border: 1px solid #808080;
+    height:20px;
+    padding:10px;
+    color:#666666;
+}
+.player.winner{background:green;}
+
+.match{
+    padding:5px 50px 5px 0px;
+}
+
+/*QUARTER-FINALS*/
+.quarter-finals .match{
+    height:100px;
+        background:right top no-repeat url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAABkCAMAAADzNpNpAAAABlBMVEW9vb36+voPFAe1AAAAOUlEQVR42u3WwQkAMAgEwdh/06ngIPqTzP4H4V6eaocgCLKe5PpXEARBXknKYgjyKcl54RAEQZAxuc8GExMvvbCdAAAAAElFTkSuQmCC);
+}
+.quarter-finals .player{
+
+}
+.quarter-finals .player:first-child{
+    margin-bottom:5px;
+}
+
+/*SEMI-FINALS*/
+.semi-finals .match{
+    padding-top:30px;
+    height:185px;
+    background:right top no-repeat url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAC5CAMAAABdlpyYAAAABlBMVEW9vb36+voPFAe1AAAARklEQVR42u3YoQoAQAhEwfP/f/qabYNJhHl9EDb6ahyCIAiCIAiyTHLzKwiCIAiCIAhyjKQshiAIgiAIghwjOb9xBEGQ7gOL2SNqJ1rBBAAAAABJRU5ErkJggg==);
+}
+
+.semi-finals .player:first-child{
+    margin-bottom:70px;
+}
+
+/*FINALS*/
+.finals .match{
+    padding-top:85px;
+    height:350px;
+    background:top right no-repeat url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAFeCAMAAADwoLwWAAAABlBMVEW9vb36+voPFAe1AAAAXklEQVR42u3aoQ0AMAwDwXb/pcvKDMwS6Z6fIhnn3DoEQRAEQRAEQRAEQRAEQZCC5PorCIIgCIIgCIIgCIIgCIIgCLKbpCyGIAiCIAiCIAiCIAiCIMg4kvM4jSAI8nvQuEM1zoAtlAAAAABJRU5ErkJggg==);
+}
+
+.finals .player:first-child{
+    margin-bottom:180px;
+
+}
+/* CHAMP*/
+.last{
+
+    padding-top:200px;
+	}
+
+.last .player:first-child{
+    margin-bottom:200px;
+
+}
+
+/* CHAMP*/
+.champ{}
+
+.roundfinal{ 
+float: left;  
+}
+
+.roundfinal .player:first-child{
+margin-top: 397px;
+margin-left: 50px;
+
+}
+.roundfinal {
+    height:900px;
+	padding-top: 20px;
+    background:top left no-repeat url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAMgCAMAAABWF8GOAAAABlBMVEW9vb36+voPFAe1AAAAoklEQVR42u3cwQkAQAgDwbP/pq+CgILgZ/Y/CCnAV+MQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQ5J7k5lcQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBNkkKYshCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgyDHJeYaMIAiCIAiCIAiCIAiCIAiCIAiCIEi/D9aImj0h7O5MAAAAAElFTkSuQmCC);
+}
